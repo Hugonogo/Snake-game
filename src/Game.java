@@ -90,12 +90,12 @@ public class Game extends JPanel implements ActionListener{
                 if (rodar) {
                 //desenho da maçã
                 g.setColor(Color.red);
-                g.fillRect(posX, posY, TAMANHO_DO_BLOCO, TAMANHO_DO_BLOCO);
+                g.fillOval(posX, posY, TAMANHO_DO_BLOCO - 15, TAMANHO_DO_BLOCO - 15);
                 //Desenho da Cobra
                 for (int i = 0; i < corpoCobra; i++) {
                     if (i == 0) {
                         g.setColor(new Color(0, 150, 0));
-                        g.fillRect(eixoX[0], eixoY[0], TAMANHO_DO_BLOCO, TAMANHO_DO_BLOCO);
+                        g.fillRect(eixoX[0], eixoY[0], TAMANHO_DO_BLOCO - 1, TAMANHO_DO_BLOCO - 1);
                     }else{
                         
                         g.setColor(Color.green);
