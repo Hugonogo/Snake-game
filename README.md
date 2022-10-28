@@ -1,4 +1,4 @@
-<h1> Snake-game </h1>
+<h1> Snake game </h1>
 
 Jogo da cobrinha em Java 
 
